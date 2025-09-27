@@ -1,0 +1,29 @@
+/*@config "../../tailwind.config.js";*/
+
+@import "tailwindcss";
+@import "./themes/index.css";
+
+@theme {
+  --color-*: initial;
+
+  --text-color-primary: var(--color-text-primary);
+  --text-color-secondary: var(--color-text-secondary);
+  --text-color-inverse: var(--color-text-inverse);
+  --text-color-accent: var(--color-text-accent);
+
+  --background-color-primary: var(--color-bg-primary);
+  --background-color-secondary: var(--color-bg-secondary);
+  --background-color-fill: var(--color-bg-fill);
+
+  --background-color-brand: var(--color-bg-brand);
+  --background-color-brand-2: var(--color-bg-brand-2);
+
+  --border-color-secondary: var(--color-border-secondary);
+  --border-color-accent: var(--color-border-accent);
+}
+
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}

@@ -1,0 +1,16 @@
+html[data-theme="green"] {
+  --color-text-primary: #003300;
+  --color-text-secondary: #007700;
+  --color-text-inverse: #FFFFFF;
+  --color-text-accent: #00B300;
+
+  --color-bg-primary: #E6FFE6;
+  --color-bg-secondary: #99FF99;
+  --color-bg-fill: #66FF66;
+
+  --color-bg-brand: #36f339;
+  --color-bg-brand-2: #36d930;
+
+  --color-border-secondary: #00A100;
+  --color-border-accent: #52dc33;
+}

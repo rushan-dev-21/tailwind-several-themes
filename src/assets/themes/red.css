@@ -1,0 +1,16 @@
+html[data-theme="red"] {
+  --color-text-primary: #330000;
+  --color-text-secondary: #770000;
+  --color-text-inverse: #FFFFFF;
+  --color-text-accent: #B30000;
+
+  --color-bg-primary: #FFE6E6;
+  --color-bg-secondary: #FF9999;
+  --color-bg-fill: #FF6666;
+
+  --color-bg-brand: #f33636;
+  --color-bg-brand-2: #d93030;
+
+  --color-border-secondary: #A10000;
+  --color-border-accent: #dc3333;
+}
